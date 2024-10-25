@@ -10,7 +10,7 @@
 <map name="links">
     <area shape="rect" id="menu" coords="550,250,900,350" href="menu.html" alt="Menu">
     <area shape="rect" id="where" coords="550,350,900,450" href="where.html" alt="Where?">
-    <area shape="rect" id="rsvp" coords="550,450,900,550" href="mailto:nicsouper@icloud.com?subject=Reservation" alt="RSVP">
+    <area shape="rect" id="rsvp" coords="550,450,900,550" href="rsvp.html" alt="RSVP">
 </map>
 </body>
 <script>
@@ -20,10 +20,12 @@
     function updateLinks() {
         const menu = document.getElementById('menu');
         const where = document.getElementById('where');
+        const rsvp = document.getElementById('rsvp');
 
-        if (isMobileDevice()) {
+        if (!isMobileDevice()) {
             menu.href = "menu_mobile.html";
             where.href = "where_mobile.html";
+            rsvp.href = "rsvp_mobile.html";
         }
     }
     updateLinks();
