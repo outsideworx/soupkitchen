@@ -8,9 +8,22 @@
 <body>
 <img src="img/index.jpg" height="744" width="1061" class="center" usemap="#links" alt="">
 <map name="links">
-    <area shape="rect" coords="550,250,900,350" href="menu_old.html" alt="Menu">
-    <area shape="rect" coords="550,350,900,450" href="where.html" alt="Where?">
-    <area shape="rect" coords="550,450,900,550" href="mailto:nicsouper@icloud.com?subject=Reservation" alt="RSVP">
+    <area shape="rect" id="menu" coords="550,250,900,350" href="menu.html" alt="Menu">
+    <area shape="rect" id="where" coords="550,350,900,450" href="where.html" alt="Where?">
+    <area shape="rect" id="rsvp" coords="550,450,900,550" href="mailto:nicsouper@icloud.com?subject=Reservation" alt="RSVP">
 </map>
 </body>
+<script>
+    function isMobileDevice() {
+        return /Mobi|Android/i.test(navigator.userAgent);
+    }
+    function updateLinks() {
+        const menu = document.getElementById('menu');
+
+        if (isMobileDevice()) {
+            menu.href = "menu_mobile.html";
+        }
+    }
+    updateLinks();
+</script>
 </html>
