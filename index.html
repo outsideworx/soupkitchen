@@ -19,9 +19,11 @@
     }
     function updateLinks() {
         const menu = document.getElementById('menu');
+        const where = document.getElementById('where');
 
         if (isMobileDevice()) {
             menu.href = "menu_mobile.html";
+            where.href = "where_mobile.html";
         }
     }
     updateLinks();
