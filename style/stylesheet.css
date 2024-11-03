@@ -7,7 +7,7 @@ body {
     max-width: max-content;
     margin: auto;
     background-image: url("../img_test/Back.png");
-    background-size: 85%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position-x: center;
 }
