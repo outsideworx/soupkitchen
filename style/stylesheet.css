@@ -6,7 +6,7 @@
 .wallpaper {
     max-width: max-content;
     margin: auto;
-    background-image: url("../img_test/Back.png");
+    background-image: url("../icons/Back.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
