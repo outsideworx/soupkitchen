@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto
 }
-body {
+.wallpaper {
     max-width: max-content;
     margin: auto;
     background-image: url("../img_test/Back.png");

@@ -17,17 +17,11 @@
     function isMobileDevice() {
         return /Mobi|Android/i.test(navigator.userAgent);
     }
-    function updateLinks() {
-        const menu = document.getElementById('menu');
-        const where = document.getElementById('where');
-        const rsvp = document.getElementById('rsvp');
-
+    function updateLocation() {
         if (isMobileDevice()) {
-            menu.href = "menu_mobile.html";
-            where.href = "where_mobile.html";
-            rsvp.href = "rsvp_mobile.html";
+            window.location.replace("index_mobile.html");
         }
     }
-    updateLinks();
+    updateLocation();
 </script>
 </html>
