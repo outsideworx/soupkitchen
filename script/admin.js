@@ -1,4 +1,4 @@
-const allowedFiles = ['menu.png', 'menu1.png', 'menu2.png'];
+const allowedFiles = ['menu.webp', 'menu1.webp', 'menu2.webp'];
 const fileInput = document.querySelector('.file-input');
 const customButton = document.querySelector('.custom-file-button');
 const uploadForm = document.getElementById('uploadForm');
