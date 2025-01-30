@@ -11,3 +11,12 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
 }
+
+.tile {
+    background-image: url('../img/tile.webp');
+    background-size: 90px;
+}
+
+.color {
+    background-color: black;
+}
