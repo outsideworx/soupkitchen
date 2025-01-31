@@ -13,26 +13,6 @@
     <area shape="rect" id="where" coords="425,410,710,490" href="where.html" alt="Where?">
 </map>
 </body>
-<script>
-    function isMobileDevice() {
-        return /Mobi|Android/i.test(navigator.userAgent);
-    }
-
-    function updateLocation() {
-        if (isMobileDevice()) {
-            window.location.replace("index_mobile.html");
-        }
-    }
-
-    updateLocation();
-
-    function scrollToMiddle() {
-        window.scrollTo({
-            right: (document.body.scrollWidth - window.innerWidth) / 2,
-            behavior: "smooth" // Smooth scrolling effect
-        });
-    }
-
-    window.onload = scrollToMiddle;
-</script>
+<script src="js/mobile.js"></script>
+<script src="js/center.js"></script>
 </html>
