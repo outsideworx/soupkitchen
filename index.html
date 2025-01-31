@@ -25,5 +25,14 @@
     }
 
     updateLocation();
+
+    function scrollToMiddle() {
+        window.scrollTo({
+            left: (document.body.scrollWidth - window.innerWidth) / 2,
+            behavior: "smooth" // Smooth scrolling effect
+        });
+    }
+
+    window.onload = scrollToMiddle;
 </script>
 </html>
