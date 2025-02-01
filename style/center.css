@@ -18,9 +18,5 @@ body {
 
 .tile {
     background-image: url('../img/tile.webp');
-    background-size: 20px;
-}
-
-.color {
-    background-color: black;
+    background-size: 80px;
 }
