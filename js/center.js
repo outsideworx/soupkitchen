@@ -1,7 +1,6 @@
-function scrollToMiddle() {
+window.addEventListener("load", function () {
     window.scrollTo({
-        right: (document.body.scrollWidth - window.innerWidth) / 2
+        left: (document.body.scrollWidth - window.innerWidth) / 2,
+        top: 0
     });
-}
-
-scrollToMiddle();
+});
