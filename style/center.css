@@ -8,6 +8,10 @@
     width: 913px;
 }
 
+.desktop {
+    width: 1036px;
+}
+
 body {
     user-select: none;
     -webkit-touch-callout: none;
