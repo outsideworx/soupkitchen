@@ -7,4 +7,4 @@ Designed to be user-friendly and visually appetizing, the website captures the w
 
 ---
 
-![design_soupkitchen](https://github.com/user-attachments/assets/391726df-f835-4118-9bae-1bb1a81262ae)
+![design_soupkitchen](https://github.com/user-attachments/assets/fcc9563d-7d9d-4201-802b-4165f9ddbadf)
